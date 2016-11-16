@@ -5,10 +5,10 @@ $(window).load(function(){
 
 // whatever the button is called
 // var stopButton = document.querySelector('#stopButton');
-var $button = $('#button');
+var $button = $('button');
 
   $button.on('click', function() {
-    var $userInputBox = $('#input-box');
+    var $userInputBox = $('#input_text');
     var compNum = Math.floor((Math.random() * 100) + 1);
 
     var guess = $userInputBox.val();
